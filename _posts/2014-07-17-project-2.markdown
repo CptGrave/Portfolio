@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 2
+date: 2022-05-05
+img: cake.png
+alt: image-alt
+project-date: May 2014
+client: Start Bootstrap
+category: Web Development
+description: A simple site on which you can play different saples of music by pressing different buttons on keyboard. <a href="https://cptgrave.github.io/Launchpad/">Link</a>
+---

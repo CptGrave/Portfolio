@@ -1,0 +1,68 @@
+# Site settings
+title: My portfolio
+email: lukastrevo@gmail.com
+url: https://github.com/jeromelachaud/freelancer-theme
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+keywords: "your keywords, separated by commas"
+skills: "Beginner programmer"
+meta_author: Łukasz Chorąży
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Łukasz Chorąży
+  location: Adress
+  social: Find me on
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  
+  - title: linkedin
+    url: http://linkedin.com/in/cptgrave
+  - title: github
+    url: http://github.com/CptGrave
+  - title: instagram
+    url: https://instagram.com/cpt.grave/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Poland
+  - line: 32-600 Oświęcim
+  
+
+# Credits content
+credits: Website created with Jekyll static website generator and freelancer theme
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
