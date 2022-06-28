@@ -1,3 +1,15 @@
+lsi: false
+safe: true
+source: [https://github.com/CptGrave/Portfolio]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+
 # Site settings
 title: My portfolio
 email: lukastrevo@gmail.com
