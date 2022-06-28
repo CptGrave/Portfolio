@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-source: [https://github.com/CptGrave/Portfolio]
+source: https://github.com/CptGrave/Portfolio
 incremental: false
 highlighter: rouge
 gist:
