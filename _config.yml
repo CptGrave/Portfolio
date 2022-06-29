@@ -1,23 +1,12 @@
-lsi: false
-safe: true
-source: https://github.com/CptGrave/Portfolio
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-
-
 # Site settings
 title: My portfolio
 email: lukastrevo@gmail.com
-url: https://cptgrave.github.io/Portfolio/
+url: https://github.com/jeromelachaud/freelancer-theme
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
 skills: "Beginner programmer"
 meta_author: Łukasz Chorąży
+baseurl: ""
 
 # Google webmaster tools
 google_verify:
@@ -63,6 +52,7 @@ social:
 address:
   - line: Poland
   - line: 32-600 Oświęcim
+  - line: lukastrevo@gmail.com
   
 
 # Credits content
