@@ -7,5 +7,5 @@ alt: image-alt
 project-date: June 2022
 client: 
 category: 
-description: A simple site that test how fast can you write words on keyboard. Including high scores saved in local data storage.  <a href="https://cptgrave.github.io/Key-Sequence-Challenge/">Link</a>
+description: A simple site that test how fast can you write words on keyboard. Including high scores saved in local data storage.  <a href="https://cptgrave.github.io/Key-Sequence-Challenge/">Link to page with project</a>
 ---
