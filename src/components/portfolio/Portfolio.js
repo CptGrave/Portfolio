@@ -4,7 +4,7 @@ import React from 'react'
 
 function Portfolio() {
   return (
-    <div>Portfolio</div>
+    <section id="portfolio">Portfolio</section>
   )
 }
 

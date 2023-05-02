@@ -26,12 +26,17 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
+
+::-webkit-transform
+{
+transform: none !important;
+} 
 
 body {
   font-family: 'Poppins', sans-serif;
