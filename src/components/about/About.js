@@ -1,9 +1,7 @@
 import "./about.css"
 import meAbout from "../../assets/me-about.jpg"
 import {FaAward} from "react-icons/fa"
-import {FiUsers} from "react-icons/fi"
 import {VscFolderLibrary} from "react-icons/vsc"
-
 import React from 'react'
 
 function About() {
@@ -22,22 +20,15 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon"/>
               <h5>Experience</h5>
-              <small>0 years</small>
+              <small>2 years hobby programming</small>
             </article>
-
-            <article className="about__card">
-              <FiUsers className="about__icon"/>
-              <h5>Clients</h5>
-              <small>None kurwa xD</small>
-            </article>
-
             <article className="about__card">
               <VscFolderLibrary className="about__icon"/>
               <h5>Projects</h5>
-              <small>Check github</small>
+              <small>20+ small projects</small>
             </article>
           </div>
-          <p>Some text describing my humble person</p>
+          <p>Hi. I'm self taught programmer, looking for entry level job in IT. Searching for place to learn and develope myself in programming. I would like to work on more complex projects, and see how does teamwork looks like. People say I'm very open person, good at communicating and listening.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
