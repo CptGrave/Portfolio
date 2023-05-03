@@ -7,8 +7,6 @@ import Footer from "../src/components/footer/Footer"
 import Header from "../src/components/header/Header"
 import Nav from "../src/components/nav/Nav"
 import Portfolio from "../src/components/portfolio/Portfolio"
-import Services from "../src/components/services/Services"
-import Testimonials from "../src/components/testimonials/Testimonials"
 
 function App() {
   return (
@@ -17,9 +15,7 @@ function App() {
     <Nav />
     <About />
     <Experience />
-    <Services />
     <Portfolio />
-    <Testimonials />
     <Contact />
     <Footer />
     </>
