@@ -25,7 +25,7 @@ function About() {
             <article className="about__card">
               <VscFolderLibrary className="about__icon"/>
               <h5>Projects</h5>
-              <small>20+ small projects</small>
+              <small>20+ small projects all deployed on github pages</small>
             </article>
           </div>
           <p>Hi. I'm self taught programmer, looking for entry level job in IT. Searching for place to learn and develope myself in programming. I would like to work on more complex projects, and see how does teamwork looks like. People say I'm very open person, good at communicating and listening.</p>
