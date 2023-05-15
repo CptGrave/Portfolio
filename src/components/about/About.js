@@ -7,7 +7,6 @@ import React from 'react'
 function About() {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
@@ -20,7 +19,7 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon"/>
               <h5>Experience</h5>
-              <small>2 years hobby programming</small>
+              <small>2 years of deliberate practice and pet projects</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon"/>
@@ -28,8 +27,8 @@ function About() {
               <small>20+ small projects all deployed on github pages</small>
             </article>
           </div>
-          <p>Hi. I'm self taught programmer, looking for entry level job in IT. Searching for place to learn and develope myself in programming. I would like to work on more complex projects, and see how does teamwork look like. People say I'm very open person, good at communicating and listening.</p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <p>Hi. I'm a self taught programmer, looking for an entry level job in IT. Searching for place where i can grow and improve my skills. I would like to work on more complex projects, and see how  teamwork looks like. People say I'm an very open person, good at communicating and listening. I'm trough hard working and eager to learn. Given the opportunity I believe I can quickly become a valuable asset in your team.</p>
+          <a href="#contact" className="btn btn-primary">Contact</a>
         </div>
       </div>
     </section>
