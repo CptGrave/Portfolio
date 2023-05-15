@@ -46,11 +46,19 @@
   }
 }
 
+.contact__options {
+  flex-direction: column;
+}
+
 /* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
 
 @media screen and (max-width: 600px) {
   .contact__container {
     width: var(--container-width-sm);
     gap: 2rem;
+  }
+
+  .contact__options {
+    flex-direction: column;
   }
 }
