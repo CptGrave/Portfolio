@@ -58,6 +58,10 @@ header {
   left:15px;
 }
 
+#experience {
+  margin-top: 0;
+}
+
 /* ============== SCROLL DOWN ============== */
 
 .scroll__down {
@@ -80,6 +84,7 @@ header {
   .scroll__down {
     display: none;
   }
+  
 }
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
@@ -87,9 +92,11 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 150vh;
+    margin-bottom: 2rem;
   }
   .header__socials,
   .scroll__down {
     display: none;
   }
+ 
 }
