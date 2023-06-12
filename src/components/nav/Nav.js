@@ -1,8 +1,8 @@
 import "./nav.css"
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
 import { MdOutlineMessage } from "react-icons/md"
+import { AiOutlineFundProjectionScreen } from "react-icons/ai"
 
 import React from 'react'
 import { useState } from "react";
@@ -33,6 +33,11 @@ function Nav() {
         onClick={() => { setActiveNav("#contact") }}
         className={activeNav === "#contact" ? "active" : ""}>
         <MdOutlineMessage /></a>
+      <a
+        href="#portfolio"
+        onClick={() => { setActiveNav("#portfolio") }}
+        className={activeNav === "#portfolio" ? "active" : ""}>
+        <AiOutlineFundProjectionScreen /></a>
     </nav>
   )
 }
